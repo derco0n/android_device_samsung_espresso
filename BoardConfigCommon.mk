@@ -26,7 +26,7 @@ TARGET_BOOTLOADER_BOARD_NAME := piranha
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/ti/omap4
-TARGET_KERNEL_CONFIG := espresso_defconfig
+TARGET_KERNEL_CONFIG := espresso-cm-oc_defconfig # Use Co0nzmod-OC-Kernel here
 BOARD_NAND_PAGE_SIZE := 4096
 BOARD_NAND_SPARE_SIZE := 128
 BOARD_KERNEL_PAGESIZE := 2048
